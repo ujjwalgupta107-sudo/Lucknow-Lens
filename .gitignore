@@ -1,6 +1,15 @@
 node_modules/
-data/
+build/
 dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Large OSM & preprocessed tile artifacts
+public/lucknow_tiles/
+data/
 public/overture/
 public/overture_tiles_full/
 public/overture_tiles_test/
